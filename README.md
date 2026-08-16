@@ -36,10 +36,10 @@ This isn't a toy CRUD app, but it *is* still the foundation. The `modules` curre
 
 You'll need a local Postgres instance running. 
 
-1. Update `config.env` with your actual database credentials (don't just use my `bassel:flstudio` local setup).
+1. Update `config.env` with your actual database credentials.
 2. Run the database migrations:
 ```bash
-goose -dir internal/modules/base/migrations postgres "postgres://bassel:flstudio@localhost:5432/go-erp2?sslmode=disable" up
+goose -dir internal/modules/base/migrations postgres "postgres://username:password@localhost:5432/go-erp2?sslmode=disable" up
 ```
 3. Fire up the server:
 ```bash
