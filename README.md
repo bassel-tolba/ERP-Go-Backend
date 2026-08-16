@@ -1,4 +1,6 @@
+
 <img width="800" height="500" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/c27ebf45-69a3-44e9-85ad-40ef1397970a" />
+
 # Go-ERP
 
 Go-based ERP system. Currently laying down the foundational plumbing—auth, role-based access control, and multi-tenant company structures—before diving into the actual business logic (accounting, inventory, etc.). Building it with strict typing and schema-first design from day one so it doesn't collapse on itself later. It happens.
